@@ -6,8 +6,12 @@ specifiers:
   svelte: ^3.44.0
   svelte-check: ^2.2.6
   svelte-preprocess: ^4.10.1
+  svelte-tiny-virtual-list: ^2.0.0
   tslib: ^2.3.1
   typescript: ~4.6.2
+
+dependencies:
+  svelte-tiny-virtual-list: 2.0.0
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.33
@@ -858,6 +862,10 @@ packages:
       svelte: 3.46.4
       typescript: 4.6.2
     dev: true
+
+  /svelte-tiny-virtual-list/2.0.0:
+    resolution: {integrity: sha512-6HxqgUaBICWV/Mm/x1Mr1L6G6EYJM3rcYhRWqYzKpv59e3s9rWifOwP7fLNKtblr16l2Gec0iBtUCOCPiYDmeQ==}
+    dev: false
 
   /svelte/3.46.4:
     resolution: {integrity: sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==}
